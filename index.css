@@ -8,6 +8,28 @@ h1 {
   text-align: center;
 }
 
+ul {
+  text-align: center;
+  margin-left: 20%;
+}
+li {
+  display: inline;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  display: block;
+  padding: 14px 16px;
+  background-color: rgba(231, 153, 71, 1);
+  text-decoration: none;
+  color: #000000;
+}
+
 h2,
 h3,
 h4,
