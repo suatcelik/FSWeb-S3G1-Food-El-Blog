@@ -1,12 +1,11 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
-font {
-  color: #3c373b;
-}
+
 h1 {
   font-family: "Gaegu", cursive;
   margin: 20px 0;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
   font-size: 60px;
+  text-align: center;
 }
 
 h2,
@@ -68,6 +67,7 @@ body {
   text-decoration: none;
   margin-bottom: 20px;
   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
+  background-color: #e79947;
 }
 
 .container header nav a:hover {
@@ -103,6 +103,7 @@ footer {
 footer .footer-content {
   margin: 0 auto;
   /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
 }
 
 footer .footer-content h3 {
